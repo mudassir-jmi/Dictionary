@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dictionary | Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Dictionary</h1>
+        </div>
+    </nav>
+
+    <section class="input container">
+        <h2>Find  any word exist in the world :)</h2>
+        <div class="form_wrap">
+            <div class="input_wrap">
+                <input type="text" id="input" placeholder="Type a word">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="data container">
+        <span class="loading">Loading</span>
+        <p class="def"></p>
+        <div class="audio"></div>
+        <div class="not_found"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
